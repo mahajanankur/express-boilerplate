@@ -1,0 +1,35 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate webservices on Node's express framework.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "NODE_ENV=production nodemon index.js",
+    "test": "NODE_ENV=ec2 nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahajanankur/express-boilerplate.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Ankur Mahajan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mahajanankur/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mahajanankur/express-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "helmet": "^4.1.1",
+    "https": "^1.0.0",
+    "motifer": "^1.1.8",
+    "nodemon": "^2.0.5"
+  }
+}

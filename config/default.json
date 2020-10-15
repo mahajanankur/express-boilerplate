@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port": "3333",
+        "profile": "development"
+    },
+    "authentication": {
+        "authEnabled": false,
+        "jwt": {
+            "salt": "$$thisismysalt$$",
+            "expiresIn": 24,
+            "postfix": "h"
+        },
+        "hardCodedToken": "2a5e6a33cc33c21a9ecbc4aa6c62c915"
+    }
+}

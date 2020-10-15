@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+  boilerplate:
+    container_name: boilerplate
+    build:
+        context: .
+        dockerfile: Dockerfile
+    image: boilerplate:latest
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+    ports:
+      - 3333:3333
+    restart: always
+    command: node index.js
